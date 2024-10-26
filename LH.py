@@ -15,7 +15,7 @@ gaojinSatus="告警状态"
 SecretId = os.environ["SecretId"]
 SecretKey = os.environ["SecretKey"]
 
-regions = ["ap-seoul-2"]
+regions = ["ap-seoul"]
 percent = 0.95  # 流量限额，1表示使用到100%关机，默认设置为95%
 tgToken = os.environ["tgToken"]
 
